@@ -1,0 +1,42 @@
+@import 'home';
+@import 'punchline';
+@import 'about';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+@mixin media-sm {
+  @media screen and (max-width: 850px) {
+    @content;
+  }
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(orange, green);
+  align-items: center;
+  text-align: center;
+
+  .title {
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+      serif;
+    margin: 1rem;
+  }
+}
+
+@include media-sm {
+  .container {
+    .title {
+      font-size: 2rem;
+    }
+    .subtitle {
+      font-size: 1rem;
+    }
+  }
+}

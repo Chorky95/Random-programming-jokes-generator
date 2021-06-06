@@ -1,0 +1,47 @@
+.joke {
+  margin: auto;
+  padding: 1rem;
+  background-color: red;
+  margin-bottom: 1rem;
+  border: 1px solid;
+  border-radius: 1rem;
+  width: 70vw;
+
+  &__setup {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+      serif;
+    font-size: 1.5rem;
+  }
+}
+
+.joke__punchline {
+  margin: auto;
+  padding: 1rem;
+  background-color: teal;
+  margin-bottom: 1rem;
+  border: 1px solid;
+  border-radius: 1rem;
+  width: 70vw;
+  h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+      serif;
+    font-size: 1.5rem;
+  }
+}
+
+button {
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+    serif;
+  font-size: 1.5rem;
+  background-color: red;
+  transition: 0.2s ease-in-out;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  border: 1px solid;
+  margin-bottom: 3rem;
+
+  &:hover {
+    background-color: teal;
+  }
+}
