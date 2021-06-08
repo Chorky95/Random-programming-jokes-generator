@@ -12,7 +12,11 @@ function About() {
       <p className='about__text'>
         This is a simple random joke generator app that I made with
         React.js and it uses{' '}
-        <a href='https://github.com/15Dkatz/official_joke_api'>
+        <a
+          target='_blank'
+          rel='noreferrer'
+          href='https://github.com/15Dkatz/official_joke_api'
+        >
           this public API
         </a>{' '}
         to get the jokes. The API also actually has a lot more jokes
